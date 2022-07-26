@@ -1,0 +1,13 @@
+name:Demo 05 - pull request
+
+on:
+  pull_request:
+   branches:
+    - main
+    
+jobs:
+  build-test-branch:
+   name:"build and test of PR"
+   
+   runs-on: ubuntu-latest
+   
